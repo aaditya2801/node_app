@@ -38,7 +38,8 @@
 
 #### Hit to: IP:PORT 
 
-Note: * Suppose you are using minikube cluster, so for getting ip of it run "minikube ip" command.
-      * For getting node port on which our app is exposed run "kubectl get svc".
-      * If you want to replicate your app run: kubectl scale deploy [DEPLOYMENT NAME] --replicas=[REPLICA COUNT]
+~ Note: 
+* Suppose you are using minikube cluster, so for getting ip of it run "minikube ip" command.
+* For getting node port on which our app is exposed run "kubectl get svc".
+* If you want to replicate your app run: kubectl scale deploy [DEPLOYMENT NAME] --replicas=[REPLICA COUNT]
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
